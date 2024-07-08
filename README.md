@@ -29,6 +29,14 @@ To make java perf agent work, we:
 
 You can refer to this blog for more details http://www.batey.info/docker-jvm-flamegraphs.html
 
+Netflix guide: <https://github.com/EngineersBox/docker-flame-graphs.git>
+
+## Colours
+
+* Red: kernel
+* Green: Java/JVM
+* Yellow: GC
+
 # How does it work?
 
 ## 1- Run a sample Java process in a container
